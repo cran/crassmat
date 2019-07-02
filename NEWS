@@ -1,0 +1,37 @@
+CRASSMAT-0.0.6: 2019-06-28
+==========================
+- Completed CRAN requests for updated documentation
+- Fixed CRAN urls
+- Replaced message function
+
+CRASSMAT-0.0.5: 2019-06-26
+==========================
+- Completed CRAN requests for updated documentation
+- Removed abbreviation in package title
+
+CRASSMAT-0.0.4: 2019-06-25
+==========================
+- Completed CRAN requests for updated documentation
+- Removed orphaned suggested packages
+
+CRASSMAT-0.0.3: 2019-06-24
+==========================
+- Completed CRAN requests for updated documentation
+- Includes toy data for clarity on example vignette
+- Documentation includes reference to pending publication
+
+CRASSMAT-0.0.2: 2019-06-23
+==========================
+- Completed CRAN corrections and documentation
+- Documentation includes example vignette 
+
+CRASSMAT-0.0.1: 2019-06-22
+==========================
+- Initial version, submitted to CRAN for review
+- Conducts conditional random sampling for sparse matrices 
+- Contains three user specifications:
+	1) a given matrix
+	2) the percentage of observed values to be sampled
+	3) the number of observed values to remain per row
+- Returns matrix, which has been sampled (without replacement)
+- Also works on complete matrices, as well as those containing missing values
